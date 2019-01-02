@@ -1,0 +1,29 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+nav h1 {
+  font-size: 3rem;
+  color: blue;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  padding: 1rem;
+}
+nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

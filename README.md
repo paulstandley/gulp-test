@@ -1,8 +1,14 @@
 # Sass gulp
 
-[sass](http://sass-lang.com/guide)
+---
 
-[https://gulpjs.com/docs/en/getting-started/quick-start](https://gulpjs.com/docs/en/getting-started/quick-start)
+## **[sass](http://sass-lang.com/guide)**
+
+---
+
+## **[gulp](https://gulpjs.com/docs/en/getting-started/quick-start)**
+
+---
 
 ```
 $ npm install -g sass
@@ -19,7 +25,9 @@ function defaultTask(cb) {
 exports.default = defaultTask
 
 Test
-gulp
+$ gulp
 To run multiple tasks, you can use
-gulp <task> <other task>
+$ gulp <task> <other task>
+
+sass --watch test.scss style.css
 ```

@@ -1,0 +1,37 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-background-color: #eee; 
+$primary-color: #333;
+$zero-pad-mar: 0;
+
+body {
+  font: 100% $font-stack;
+  background-color: $primary-background-color;
+  color: $primary-color;
+  padding: $zero-pad-mar;
+  margin: $zero-pad-mar;
+}
+nav {
+  
+  h1 {
+    font-size: 3rem;
+    color: blue;
+    text-align: center;
+  }
+
+  ul {
+    margin: $zero-pad-mar;
+    padding: $zero-pad-mar;
+    list-style: none;
+    text-align: center;
+  }
+
+  li { 
+    padding: 1rem;
+  }
+
+  a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+}
