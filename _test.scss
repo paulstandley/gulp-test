@@ -1,23 +1,25 @@
+$h2color: #fde;
+$h2bgcolor: red;
+$rem2: 2rem;
+
 section {
-  padding: 2rem;
-  margin: 2rem;
-}
-section h2 {
-  font-size: 6rem;
-  text-align: center;
-  margin: auto;
-  padding: 0;
-  width: 12em;
-  height: 1.2em;
-  color: red;
-  -webkit-animation-name: example2;
-  /* Safari 4.0 - 8.0 */
-  -webkit-animation-durationreds: 3.6s;
-  /* Safari 4.0 - 8.0 */
-  animation-name: example2;
-  animation-duration: 3.6s;
-  transition-timing-function: cubic-bezier(1, 0.75, 0.5, 0.75);
-  animation-iteration-count: infinite;
+  padding: $rem2;
+  margin: $rem2;
+  h2 {
+    font-size: 6rem;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 12em;
+    height: 1.2em;
+    color: red;
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-durationreds: 3.6s; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 3.6s;
+    transition-timing-function: cubic-bezier(1, 0.75, 0.5, 0.75);
+    animation-iteration-count: infinite;
+  }
 }
 
 /* Safari 4.0 - 8.0 */
@@ -78,6 +80,7 @@ section h2 {
     border: 0.1em white ridge;
   }
 }
+
 /* Standard syntax */
 @keyframes example2 {
   0% {
@@ -136,32 +139,3 @@ section h2 {
     border: 0.1em white ridge;
   }
 }
-body {
-  font: 100% Helvetica, sans-serif;
-  background-color: #eee;
-  color: #333;
-  padding: 0;
-  margin: 0;
-}
-
-nav h1 {
-  font-size: 3rem;
-  color: blue;
-  text-align: center;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-nav li {
-  padding: 1rem;
-}
-nav a {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-}
-
-/*# sourceMappingURL=style.css.map */
