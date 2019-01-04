@@ -15,7 +15,7 @@ section h2 {
   -webkit-animation-durationreds: 3.6s;
   /* Safari 4.0 - 8.0 */
   animation-name: example2;
-  animation-duration: 3.6s;
+  animation-duration: 9.9s;
   transition-timing-function: cubic-bezier(1, 0.75, 0.5, 0.75);
   animation-iteration-count: infinite;
 }
@@ -136,6 +136,12 @@ section h2 {
     border: 0.1em white ridge;
   }
 }
+.image {
+  -webkit-transform: rotate(42deg);
+  -ms-transform: rotate(42deg);
+  transform: rotate(42deg);
+}
+
 body {
   font: 100% Helvetica, sans-serif;
   background-color: #eee;
