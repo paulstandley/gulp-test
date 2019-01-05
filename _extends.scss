@@ -1,0 +1,10 @@
+%thing {
+  color: crimson;
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.test {
+  @extend %thing;
+}

@@ -142,6 +142,13 @@ section h2 {
   transform: rotate(42deg);
 }
 
+.test {
+  color: crimson;
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 3rem;
+}
+
 body {
   font: 100% Helvetica, sans-serif;
   background-color: #eee;
