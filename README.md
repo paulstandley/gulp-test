@@ -30,4 +30,6 @@ To run multiple tasks, you can use
 $ gulp <task> <other task>
 
 sass --watch test.scss style.css
+
+ npm install --save-dev gulp-imagemin
 ```
