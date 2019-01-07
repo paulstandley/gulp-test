@@ -31,5 +31,9 @@ $ gulp <task> <other task>
 
 sass --watch test.scss style.css
 
- npm install --save-dev gulp-imagemin
+npm install --save-dev gulp-imagemin
+
+npm install --save-dev gulp-uglify
+
+npm install --save-dev gulp-sass
 ```

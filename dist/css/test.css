@@ -1,180 +1,150 @@
 section {
   padding: 2rem;
-  margin: 2rem;
-}
-section h2 {
-  font-size: 6rem;
-  text-align: center;
-  margin: auto;
-  padding: 0;
-  width: 12em;
-  height: 1.2em;
-  color: red;
-  -webkit-animation-name: example2;
-  /* Safari 4.0 - 8.0 */
-  -webkit-animation-durationreds: 3.6s;
-  /* Safari 4.0 - 8.0 */
-  animation-name: example2;
-  animation-duration: 9.9s;
-  transition-timing-function: cubic-bezier(1, 0.75, 0.5, 0.75);
-  animation-iteration-count: infinite;
-}
+  margin: 2rem; }
+  section h2 {
+    font-size: 6rem;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 12em;
+    height: 1.2em;
+    color: red;
+    -webkit-animation-name: example2;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-durationreds: 3.6s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 9.9s;
+    transition-timing-function: cubic-bezier(1, 0.75, 0.5, 0.75);
+    animation-iteration-count: infinite; }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example2 {
   0% {
     color: darkred;
     background-color: white;
-    border: 0.1em darkred ridge;
-  }
+    border: 0.1em darkred ridge; }
   10% {
     color: darkred;
     background-color: white;
-    border: 0.1em darkred ridge;
-  }
+    border: 0.1em darkred ridge; }
   20% {
     color: red;
     background-color: pink;
-    border: 0.1em red ridge;
-  }
+    border: 0.1em red ridge; }
   30% {
     color: red;
     background-color: pink;
-    border: 0.1em red ridge;
-  }
+    border: 0.1em red ridge; }
   40% {
     color: red;
     background-color: pink;
-    border: 0.1em red ridge;
-  }
+    border: 0.1em red ridge; }
   50% {
     color: pink;
     background-color: red;
-    border: 0.1em pink ridge;
-  }
+    border: 0.1em pink ridge; }
   60% {
     color: pink;
     background-color: red;
-    border: 0.1em pink ridge;
-  }
+    border: 0.1em pink ridge; }
   70% {
     color: pink;
     background-color: red;
-    border: 0.1em pink ridge;
-  }
+    border: 0.1em pink ridge; }
   80% {
     color: white;
     background-color: darkred;
-    border: 0.1em white ridge;
-  }
+    border: 0.1em white ridge; }
   90% {
     color: white;
     background-color: darkred;
-    border: 0.1em white ridge;
-  }
+    border: 0.1em white ridge; }
   100% {
     color: white;
     background-color: darkred;
-    border: 0.1em white ridge;
-  }
-}
+    border: 0.1em white ridge; } }
+
 /* Standard syntax */
 @keyframes example2 {
   0% {
     color: darkred;
     background-color: white;
-    border: 0.1em darkred ridge;
-  }
+    border: 0.1em darkred ridge; }
   10% {
     color: darkred;
     background-color: white;
-    border: 0.1em darkred ridge;
-  }
+    border: 0.1em darkred ridge; }
   20% {
     color: red;
     background-color: pink;
-    border: 0.1em red ridge;
-  }
+    border: 0.1em red ridge; }
   30% {
     color: red;
     background-color: pink;
-    border: 0.1em red ridge;
-  }
+    border: 0.1em red ridge; }
   40% {
     color: red;
     background-color: pink;
-    border: 0.1em red ridge;
-  }
+    border: 0.1em red ridge; }
   50% {
     color: pink;
     background-color: red;
-    border: 0.1em pink ridge;
-  }
+    border: 0.1em pink ridge; }
   60% {
     color: pink;
     background-color: red;
-    border: 0.1em pink ridge;
-  }
+    border: 0.1em pink ridge; }
   70% {
     color: pink;
     background-color: red;
-    border: 0.1em pink ridge;
-  }
+    border: 0.1em pink ridge; }
   80% {
     color: white;
     background-color: darkred;
-    border: 0.1em white ridge;
-  }
+    border: 0.1em white ridge; }
   90% {
     color: white;
     background-color: darkred;
-    border: 0.1em white ridge;
-  }
+    border: 0.1em white ridge; }
   100% {
     color: white;
     background-color: darkred;
-    border: 0.1em white ridge;
-  }
-}
+    border: 0.1em white ridge; } }
+
 .image {
   -webkit-transform: rotate(42deg);
   -ms-transform: rotate(42deg);
-  transform: rotate(42deg);
-}
+  transform: rotate(42deg); }
 
 .test {
   color: crimson;
   background-color: aquamarine;
   text-align: center;
-  font-size: 3rem;
-}
+  font-size: 3rem; }
 
 body {
   font: 100% Helvetica, sans-serif;
   background-color: #eee;
   color: #333;
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 nav h1 {
   font-size: 3rem;
   color: blue;
-  text-align: center;
-}
+  text-align: center; }
+
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-align: center;
-}
+  text-align: center; }
+
 nav li {
-  padding: 1rem;
-}
+  padding: 1rem; }
+
 nav a {
   display: inline-block;
   padding: 0.5rem 1rem;
-  text-decoration: none;
-}
-
-/*# sourceMappingURL=style.css.map */
+  text-decoration: none; }
