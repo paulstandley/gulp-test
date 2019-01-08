@@ -2,7 +2,8 @@ var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
 var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
-
+var concat = require('gulp-concat');
+var watch = require('gulp');
 
 gulp.task('imgmin', function(cb) {
 	gulp.src('src/image/*.png')
@@ -29,11 +30,6 @@ gulp.task('copyHTML', function(cb) {
       cb();
 });
 
-gulp.task('default', function(cb) { 
-  console.log('default is running');
-  cb();
-});
-
 gulp.task('sass', function(cb) {
   gulp.src('src/sass/*.scss')
   .pipe(sass().on('error', sass.logError))
@@ -41,17 +37,33 @@ gulp.task('sass', function(cb) {
   cb();
 });
 
+gulp.task('concat', function(cb) {
+  gulp.src('src/js/*.js')
+  .pipe(concat('test.js'))
+  .pipe(uglify())
+  .pipe(gulp.dest('dist/js'));
+  cb();
+});
+/*
+gulp.task('watch', function() {
+  gulp.watch('src/js/*.js', ['concat']);
+  gulp.watch('src/image/*', ['minfy']);
+  gulp.watch('src/sass/*.scss', ['sass']);
+  gulp.watch('src/js/*.js', ['copyHTML']);
+});
+watch(['src/js/*.js', '!input/something.js'], function(cb) {
+  // body omitted
+  cb();
+});
 function defaultTask(cb) {
   // place code for your default task here
-
-/*
-  gulp task define tasks
-  gulp src points to files
-  gulp dest points to folders to output
-  gulp watch watch files and folders for change
-*/
-
+  //gulp task define tasks
+  //gulp src points to files
+  //gulp dest points to folders to output
+  //gulp watch watch files and folders for change
+    
     cb();
   }
 
 exports.default = defaultTask
+*/
